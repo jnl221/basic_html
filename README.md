@@ -5,7 +5,7 @@
 2. Unzip the basic_html folder and move it to your Desktop.  
 3. Open the basic_html folder in your Finder and drag the whole thing onto your Sublime icon to open the folder using Sublime.  
 4. From the Finder, drag basic.html into an empty Chrome tab and take a look at the file.  
-5. Double-click on basic.html. This is an HTML file that contains both CSS and HTML. The comments in this file (in light gray text) give you instructions. Follow the instructions to complete the assignment. Use reference_sheet.html and Google as a resource.  
+5. In Sublime, double-click on basic.html. This is an HTML file that contains both CSS and HTML. The comments in this file (in light gray text) give you instructions. Follow the instructions to complete the assignment. Use reference_sheet.html and Google as a resource.  
 6. Remember, as you fill out basic.html, you should save (command+S) the file, and check the Chrome tab where you dragged basic.html in step four. If you refresh (command+R), your changes will show up.
 
 ## Submission instructions  
