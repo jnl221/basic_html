@@ -1,0 +1,150 @@
+<!-- This contains sample answers for basic.html, with correct formatting and syntax. You should use this to check your own formatting and syntax. -->
+
+<!DOCTYPE html>
+<html>
+    <!-- The head tag contains information your file needs to have that is not content. -->
+    <head>
+        <!-- default character encoding, translates everything into binary -->
+        <meta charset="utf-8">
+        <!-- This is where the title of your page goes -->
+        <title>Basic HTML</title>
+        <!-- If your CSS page is not its own file, your CSS would go in a style tag like this -->
+        <style>
+            p {
+                color: #282828;
+                font-size: 16px;
+                font-family: 'Open Sans', serif;
+            }
+            #quote {
+                font-style: italic;
+                color: darkgray;
+            }
+            .book {
+                border: 1px dashed deepskyblue;
+                width: 25%;
+                padding: 2px;
+            }
+            #bargraph {
+                border: 1px solid gray;
+                padding-left: 10px;
+                padding-bottom: 10px;
+                width: 40%;
+    
+            }
+            .bar_label {
+                color: maroon;
+            }
+            #longest {
+                width: 300px;
+                height: 10px;
+                background: gray;
+                border: 1px solid maroon;
+            }
+            #longer {
+                width: 200px;
+                height: 10px;
+                background: gray;
+                border: 1px solid maroon;
+            }
+            #long {
+                width: 100px;
+                height: 10px;
+                background: gray;
+                border: 1px solid maroon;
+            }
+
+        </style>
+    </head>
+    
+    <!-- The body tag contains all of your content. -->
+    <body>
+
+        <h1>A little bit about me!</h1>
+    
+        <h2>My intro</h2>
+        <!-- Include: a brief intro to yourself - where you're from, what you like to do for fun, what you're studying, and who your community or family is. -->
+        <!-- Tags to use: <p>, <strong>, <i> -->
+        <p>My name is Zahra, and I'm from Wilmette, Illinois. I work as a nurse in Chicago and my <strong>favorite</strong> thing to do is dress up my spouse and dog in matching outfits for Instagram. <i>This is the best weekend activity ever.</i></p>
+        
+        <h2>My handles</h2>
+        <!-- Include: at least two handles for your social media accounts -->
+        <!-- Tags to use: <p>, <a> -->
+        <p>You can follow me on <a href="https://www.goodreads.com/author/show/2522.Zadie_Smith" target="_blank">Goodreads</a> and <a href="https://twitter.com/maerunes" target="_blank">Twitter</a>.</p>
+
+    
+        <h2> ~ Challenge: Why is my text maroon? ~</h2>
+        <!-- Challenge! The text in your p tags is currently maroon. Figure out why and make it dark gray, using a hex code. (Hint: use google to find a hex code for a dark gray) -->
+
+        <p>The text is maroon because p tags are given styles in the CSS section (scroll up!), and one of the styles is "color: maroon". You can change this to any shade of dark gray you want; I chose #282828.</p>
+
+
+        <h2>My favorite meme</h2>
+        <!-- Include: a screenshot of an internet meme that you like -->
+        <!-- Tags to use: <img> -->
+        <!-- Hint! Use 'reference_sheet.html', which you downloaded with this file, to remember how to include an image. -->
+        <img src="large_wink.png" alt="This is a screenshot of kathryn hahn winking enthusiastically, which became a meme in 2021. The caption reads 'FINAL_VERSION.docx.'" height="300px" width="400px">
+        <p>Note: this file needs to exist within this folder, including when you upload this file to github, in order to show up on your page.</p>
+
+    
+        <h2>Why I'm a great student</h2>
+        <!-- Include: an unordered list -->
+        <!-- Tags to use: <ul>, <li>, <strong> -->
+        <ul>
+            <li>I read a lot.</li>
+            <li>I like to solve problems.</li>
+            <li>I am good at snacking <strong>quietly</strong>.</li>
+            <li>I like to find new sources of information.</li>
+        </ul>
+
+    
+        <h2>Top 3 most famous people from my hometown</h2>
+        <!-- Include: an ordered list -->
+        <!-- Tags to use: <ol>, <li>, <a> -->
+        <h3>Famous writers from Chicago</h3>
+        <ol>
+            <li><a href="https://en.wikipedia.org/wiki/Gwendolyn_Brooks" target="_blank">Gwendolyn Brooks</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Ernest_Hemingway" target="_blank">Ernest Hemingway</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Shel_Silverstein" target="_blank">Shel Silverstein</a></li>
+        </ol>
+
+
+        <h2> ~ Challenge: Read my poetry ~</h2>
+        <!-- Challenge! Figure out what a <br> tag is. Write a short poem about your college experience so far, using only one <p> tag and at least two <br> tags. -->
+        <p>A br tag adds a break in the middle of text.</p>
+        <p>Red and orange trees<br>Like small campus fires, raging<br>Before winter comes</p>
+
+    
+        <h2>This is one of my favorite quotes</h2>
+        <!-- Include: a quote from a book, quote should be in italics and gray -->
+        <!-- Tags to use: <h3>, <p> with an id named 'quote' that is styled in the <style> section -->
+        <h3>The Myth Of Sisyphus, Albert Camus</h3>
+        <p id="quote">"Yes, there is beauty and there are the humiliated. Whatever may be the difficulties of the undertaking, I should like never to be unfaithful either to one or to the others."</p>
+
+
+        <h2>These are more of my favorite books</h2>
+        <!-- Include: an unordered list of at least three books, list items should have a border -->
+        <!-- Tags to use: <ul>, <li> with classes named 'book' that is styled in the <style> section -->
+        <ul>
+            <li class="book">An Unnecessary Woman, Rabih Alameddine</li>
+            <li class="book">Known And Strange Things, Teju Cole</li>
+            <li class="book">The God Of Small Things, Arundhati Roy</li>
+        </ul>
+
+
+        <h3>~ Challenge: A very simple bar graph ~</h3>
+        <!-- Challenge! Add CSS styles to '#longer' and '#long' to make the bar graph look like it's ordered from longest to shortest. You may also change the h4 text and the p text to make this simple bar chart reflect real (or fake) data. -->
+
+        <p>You can change the lengths of the bars in this bar graph by changing the widths of the bars. You can add a width element to #longer and #long in the style section at the top of this file.</p>
+
+        <div id="bargraph">
+            <h3>Desire to go to gym</h3>
+            <p class="bar_label">Directly after watching a superhero movie</p>
+            <div id="longest"></div>
+            <p class="bar_label">Directly after coming home from work</p>
+            <div id="longer"></div>
+            <p class="bar_label">Directly after talking to a very fit friend</p>
+            <div id="long"></div>
+        </div>
+    
+    </body>
+</html>
