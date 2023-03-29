@@ -12,4 +12,5 @@
 1. Sign in to github.com and go to your own Github repository for this class -- it should be called something like 'jnl221_lastname'.  
 2. Upload basic.html and large_wink.png to your repo.  
 3. Scroll down and add a commit message into the top box. Then, click on 'Commit changes'.  
-4. After a couple of minutes, go to your repository's webpage (it should be something like username.github.io/jnl221_lastname) to make sure what you typed in shows up.  
+4. After a couple of minutes, go to your repository's webpage (it should be something like username.github.io/jnl221_lastname/basic.html) to make sure what you typed in shows up.  
+5. Place this URL in the 'github accounts' Google doc in our shared folder, under your name.  
